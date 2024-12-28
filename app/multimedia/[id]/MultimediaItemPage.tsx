@@ -3,9 +3,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import NeonButton from '@/components/NeonButton'
 import { motion } from 'framer-motion'
-import { ArrowLeft, PlayCircle, Headphones, Calendar, Clock } from 'lucide-react'
+import {PlayCircle, Headphones, Calendar, Clock } from 'lucide-react'
 import { MultimediaItem } from '../../../utils/multimediaData'
 
 interface MultimediaItemPageProps {
