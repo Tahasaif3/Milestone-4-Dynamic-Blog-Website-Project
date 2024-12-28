@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "username": "Taha12",
+    "email": "tahasaifsurhio454@gmail.com",
+    "password": "$2a$10$H8gItKyWBPl43HxS3Km1Nujd0EWPZWFyN3412qlURNahqqiml1eUq"
+  },
+  {
+    "id": 2,
+    "username": "Taha12",
+    "email": "taha@gmail.com",
+    "password": "$2a$10$ny0yPgiEMefWlyft3UC4Fe4E2dNv6z6to0J/IWiXUE/mm1kIKyh06"
+  },
+  {
+    "id": 3,
+    "username": "Taha12",
+    "email": "taha12@gmail.com",
+    "password": "$2a$10$d613EYDbc3K1gTUZanpq/eOAPuBDihOw17jTBHXjsKQL9KkVd2PF2"
+  },
+  {
+    "id": 4,
+    "username": "rubab",
+    "email": "rubab12@gmail.com",
+    "password": "$2a$10$xSpaCOgc6rMtnMR8DLGt8.VDRBy3G1iM0CZ31d0Yek4fgtD1Dcumy"
+  },
+  {
+    "id": 5,
+    "username": "mujeeb",
+    "email": "mujeeburrehmansir126@gmail.com",
+    "password": "$2a$10$9zu1IoOu2.6neUWkZuT6neEqyQUcIfc3gxxLJ72oi3bq3WZPTznMm"
+  },
+  {
+    "id": 6,
+    "username": "Taha Saif",
+    "email": "tahasaif451@gmail.com",
+    "password": ""
+  },
+  {
+    "id": 7,
+    "username": "rubeena",
+    "email": "rubeenasaif55@gmail.com",
+    "password": "$2a$10$565MTiLyWr2E1iqg.gNIauRZaT.VDlWj3HlNieYYsia7TYt2dWs7O"
+  },
+  {
+    "id": 8,
+    "username": "saif",
+    "email": "saif@gmail.com",
+    "password": "$2a$10$VLhDqOM7Zuv28/Sx94NGlOszG1xrAmqMaaMEYwlxRsaHhZU0gOGzW"
+  },
+  {
+    "id": 9,
+    "username": "Saifullah Surhio",
+    "email": "saifullahshoes.store@gmail.com",
+    "password": ""
+  }
+]
