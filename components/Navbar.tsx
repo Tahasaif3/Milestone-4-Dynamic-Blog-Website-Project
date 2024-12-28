@@ -13,7 +13,7 @@ const navItems = [
   { name: 'Home', path: '/' },
   { name: 'Blog', path: '/blog' },
   { name: 'Multimedia', path: '/multimedia' },
-  { name: 'About', path: '/about1' },
+  { name: 'About', path: '/about' },
   { name: 'Author', path: '/Author' },
   { name: 'Contact', path: '/contact' },
 ]
