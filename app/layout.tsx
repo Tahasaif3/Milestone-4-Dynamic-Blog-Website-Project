@@ -8,7 +8,7 @@ import { UserProvider } from '../app/contexts/UserContexts'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Enhanced Dynamic Blog',
+  title: 'TechVista Blog',
   description: 'An Aesthetically pleasing Dynamic Blog Website',
 }
 
