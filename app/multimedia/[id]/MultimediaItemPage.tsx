@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import NeonButton from '@/components/NeonButton'
 import { motion } from 'framer-motion'
 import { ArrowLeft, PlayCircle, Headphones, Calendar, Clock } from 'lucide-react'
@@ -41,11 +42,16 @@ export default function MultimediaItemPage({ item }: MultimediaItemPageProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-         <NeonButton href="/multimedia">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Multimedia
-          </NeonButton>
-
+         <Link href="/multimedia">
+          <button
+            type="button"
+            className="h-14 w-48 mt-5 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-[3px] shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-300 ease-in-out group"
+          >
+            <div className="flex items-center justify-center h-full w-full rounded-full bg-gray-900 text-white font-medium text-lg transition-all duration-300 ease-in-out group-hover:bg-gradient-to-br group-hover:from-gray-800 group-hover:to-black">
+              Go Back
+            </div>
+          </button>
+        </Link>
           <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-2xl">
             <div className="relative aspect-video">
               <Image
