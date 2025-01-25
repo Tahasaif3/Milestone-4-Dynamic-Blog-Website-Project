@@ -1,5 +1,4 @@
 import Script from "next/script";
-import react from "react"
 
 type AdSenceTypes = {
     pId:string;
