@@ -36,7 +36,7 @@ export async function POST(req: Request) {
     
           <!-- Footer Section with Action Link -->
           <div style="text-align: center; margin-top: 25px;">
-            <a href="http://localhost:3000/contact" style="background-color: #FF4500; color: white; padding: 12px 30px; text-decoration: none; border-radius: 25px; font-size: 16px; font-weight: bold; transition: background-color 0.3s ease;">
+            <a href="https://techvistasite.vercel.app/contact" style="background-color: #FF4500; color: white; padding: 12px 30px; text-decoration: none; border-radius: 25px; font-size: 16px; font-weight: bold; transition: background-color 0.3s ease;">
               Go Back to Contact Form
             </a>
           </div>
@@ -44,7 +44,7 @@ export async function POST(req: Request) {
     
         <!-- Email Footer -->
         <div style="text-align: center; padding: 10px 0; background-color: #f7f7f7; font-size: 14px; color: #777;">
-          <p style="margin: 0;">&copy; 2025 SpeedQeats Restaurant. All rights reserved.</p>
+          <p style="margin: 0;">&copy; 2025 TechVista Blog. All rights reserved.</p>
         </div>
       `,
     });
