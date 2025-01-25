@@ -30,26 +30,6 @@ export default function RootLayout({
         ></script>
       </Head>
       <body className={`${inter.className} bg-gradient-to-br from-gray-900 to-black text-white min-h-screen flex flex-col`}>
-      <div>
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4686305629312312"
-            crossOrigin="anonymous"
-          ></script>
-          <ins
-            className="adsbygoogle"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-4686305629312312"
-            data-ad-slot="2138801538"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: "(adsbygoogle = window.adsbygoogle || []).push({});",
-            }}
-          ></script>
-        </div>
       <UserProvider>
         <div className="flex-grow">
           <Navbar />
