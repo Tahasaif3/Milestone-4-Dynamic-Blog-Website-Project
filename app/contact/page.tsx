@@ -181,6 +181,9 @@ export default function Contact() {
             )}
           </motion.div>
 
+        
+          
+
           <motion.div
             className="md:w-1/2 mt-8 md:mt-0"
             initial={{ opacity: 0, x: 50 }}
