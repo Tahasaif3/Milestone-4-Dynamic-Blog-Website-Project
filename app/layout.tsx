@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { UserProvider } from '../app/contexts/UserContexts'
+import  Head  from 'next/head';
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,6 +21,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+      <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          data-ad-client="ca-pub-4686305629312312"
+          crossOrigin="anonymous"
+        ></script>
+      </Head>
       <body className={`${inter.className} bg-gradient-to-br from-gray-900 to-black text-white min-h-screen flex flex-col`}>
       <UserProvider>
         <div className="flex-grow">
